@@ -9,6 +9,6 @@ public class Email {
     }
     @Override
     public String toString() {
-        return "Email{to='" + recipient + "', subject='" + subject + "', body='" + body + "'}";
+        return "Email{'" + recipient + "', subject='" + subject + "', body='" + body + "'}";
     }
 }
